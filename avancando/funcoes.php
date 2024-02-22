@@ -24,3 +24,8 @@ function depositar($conta, $valorADepositar)
 function exibeMensagem(string $mensagem) {
     echo $mensagem . PHP_EOL;
 }
+
+function titularComLetraMaisuculas(array &$conta)
+{
+    $conta['titular'] = mb_strtoupper($conta['titular']);
+}
