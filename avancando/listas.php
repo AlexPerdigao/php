@@ -12,3 +12,7 @@ foreach ($idadeList as $idade) {
 
 }
 
+echo "Total: " . count($idadeList) . PHP_EOL;
+echo "Total: " . sizeof($idadeList) . PHP_EOL;
+
+
